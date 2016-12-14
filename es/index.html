@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Quenya - Desarrollo de Software de alto nivel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../img/favicon.png">
+        <meta name="description" content="Quenya Software es un equipo de desarrollo web/móvil que ofrece sus servicios con tecnología de vanguardia" /> 
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/smooth.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css">
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/soft_scroll.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <script>
+          new WOW().init();
+        </script>
+    </head>
+    
+    <body>
+    
+    <script>
+    $(document).ready(function(){
+        var bg=Math.floor((Math.random() * 3) + 1);
+        $("#img_main").attr("style","background-image : url('../img/bg"+bg+".jpg'); background-attachment: fixed;")
+    });
+
+    </script>
+        <div class="cover">
+       <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/quenya.png" width="18%" /> 
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right menu">
+                        <li class="active">
+                            <a href="#home">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#about">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#services">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#stacks">Herramientas</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contacto</a>
+                        </li>
+                        <li>
+                            <a class="ion-earth" href="../en/"> En</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <div class="cover-image" id="img_main"><div id="home"></div></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow fadeInUp" data-wow-duration="2s">
+                        <center><img width="30%" src="../img/logo.png" class="img-responsive logo_central"></center>
+                        <p>Desarrollo de Software de alto nivel</p>
+                        <br>
+                        <br>
+                        <div class="circle">
+                            <a href="#about" class="arrow-link"><span class="ion-ios-arrow-down cool_btn_down"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <div class="container">
+                <h1 class="text-center about_text">{ Nosotros }</h1>
+                <div class="row">
+                    <div class="col-md-6 wow slideInLeft" data-wow-duration="1s" >
+                        </br>
+                        <p class="text">Somos un equipo de desarrolladores tratando de innovar en el campo de la ingeniería de software. Buscamos ofrecer los mejores servicios en cuanto a desarrollo de aplicaciones web utilizando metodologías y herramientas de última generación.
+                        </br></br>
+                        ¡Nos gusta la programación! Y tenemos las herramientas y el conocimiento para ayudarte. Queremos participar en el desarrollo tecnológico de tu compañia u organización. Tenemos grandes ideas que compartir. ¿Qué esperas? Comienza revisando nuestros proyectos realizados y conoce nuestros servicios.</p>
+                    <center><a class="btn btn-default cool_green" href="#services">Nuestros servicios</a></center>
+                    </div>
+                    <div class="col-md-6 wow slideInRight" data-wow-duration="1s" >
+                    <center><img class="space_img hidden-xs" src="../img/software.png"/></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section grid_pattern" id="services">
+            <div class="container">
+                <h1 class="text-center">{ Servicios } </h1>
+                <h3 class="text-center">Convertimos ideas en código</h3>
+                <div class="row">
+                    <div class="col-md-4 wow slideInDown" data-wow-duration="1s"><i class="ion-social-nodejs huge"></i>
+                        <h3 class="text-center top_nothing">Desarrollo web</h3></br>
+                        <p class="text">¡Desarrollamos el sitio web que imaginas para tu empresa! Con el uso de las <strong>metodolog&iacute;as y herramientas de vanguardia</strong> para que tu imagen digital tenga la mejor presentaci&oacute;n en cualquier dispositivo y puedas llegar a m&aacute;s clientes.</p>
+                    </div>  
+                    <div class="col-md-4 wow slideInDown" data-wow-duration="1s"><i class="ion-iphone huge"></i>
+                        <h3 class="text-center top_nothing">Aplicaciones móviles</h3></br>
+                        <p class="text">¿Quieres tener tu propia aplicaci&oacute;n m&oacute;vil para dispositivos Android? La dise&ntilde;amos y desarrollamos para ti, en poco tiempo tendr&aacute;s tu app en la <strong>PlayStore de Google</strong> ofreciendo tus servicios.</p>
+                    </div>  
+                    <div class="col-md-4 wow slideInDown" data-wow-duration="1s"><i class="ion-earth huge"></i>
+                        <h3 class="text-center top_nothing">Optimización para motores de búsqueda (SEO)</h3></br>
+                        <p class="text">Sabemos que quieres llegar a cada vez m&aacute;s usuarios, por eso, te ofrecemos la mejor asesor&iacute;a y planes de servicio para mejorar el posicionamiento de tu sitio web y que este aparezca en los primeros resultados de los principales buscadores como <strong>Google y Bing</strong>.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="section laptop_bg" id="projects">
+            <div class="container">
+                <h1 class="text-center">{ Proyectos } </h1>
+                <h3 class="text-center about_text">Nuestro trabajo</h3>
+                <!-- Carousel -->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    
+                  </ol>
+                  <!-- elements-->
+                  <div class="carousel-inner" role="listbox">
+                      <!-- item 2-->
+                      <div class="item active">
+                        <div class="col-md-6">
+                        <img src="../img/projects/EE.png" width="100%" />
+                      </div>  
+                      <div class="col-md-6 i">
+                        <h3 class="text-center">Escuela de Escritores</h3>
+                        </br>
+                        <p class="text">Sitio web desarrollado con Wordpress para la Fundaci&oacute;n Escuela de Escritores de Caracas, Venezuela. Desde su sitio, los usuarios pueden inscribirse los cursos que dicta la Fundaci&oacute;n, leer sus noticias, mantenerse en contacto con ellos y comentar sus entradas, art&iacute;culos y publicaciones.</p>
+                        </br>
+                        <center><a href="http://escueladeescritores.org.ve/" target="_blank" class="btn btn-default cool_green">Ver proyecto</a></center>
+                      </div>
+                      </div>
+                      <!-- item 3-->
+                      <div class="item">
+                            <div class="col-md-6">
+                            <img src="../img/projects/Repuestos.png" width="100%" />
+                          </div>  
+                          <div class="col-md-6 i">
+                            <h3 class="text-center">Autopartes Glencar</h3>
+                            </br>
+                            <p class="text">Para la tienda de repuestos Autopartes Glencar, se desarroll&oacute; un sitio web responsive con Wordpress que muestra al usuario los productos, marcas y servicios disponibles, adem&aacute;s de ofrecer contacto con la compa&ntilde;&iacute;a.</p>
+                            </br>
+                            <center><a href="http://autopartesglencar.com.ve/" target="_blank" class="btn btn-default cool_green">Ver proyecto</a></center>
+                          </div>
+                      </div>
+                      <!-- item 4-->
+                      <div class="item">
+                            <div class="col-md-6">
+                            <center><img src="../img/projects/ecrea_app.png" class="app_img" /></center>
+                          </div>  
+                          <div class="col-md-6 i">
+                            <h3 class="text-center">App móvil de la Escuela de Escritores</h3>
+                            </br>
+                            <p class="text">La aplicación oficial de la Escuela de Escritores de Caracas. Fundación enfocada en cursos de escritura y literatura. Con la app podrás mantenerte al tanto de los cursos y artículos de la escuela, así como preinscribirte si estás interesado. Disponible en la Play Store.</p>
+                            </br>
+                            <center><a href="https://play.google.com/store/apps/details?id=com.quenya.ecrea" target="_blank" class="btn btn-default cool_green">Descargar</a></center>
+                          </div>
+                      </div>
+                      <!-- item 3-->
+                      <div class="item">
+                            <div class="col-md-6">
+                            <img src="../img/projects/frases.png" width="100%" />
+                          </div>  
+                          <div class="col-md-6 i">
+                            <h3 class="text-center">Frases para la vida</h3>
+                            </br>
+                            <p class="text">Web Wordpress para "Frases para la vida". Una web enfocada en la publicación de contenido motivacional. Integrado con Google Adsense. Desde el sitio puedes leer y comentar sus posts así como compartirlos en las redes sociales.</p>
+                            </br>
+                            <center><a href="http://frasesparalavida.com.ve/" target="_blank" class="btn btn-default cool_green">Ver Proyecto</a></center>
+                          </div>
+                      </div>
+
+
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="section gondor_tree" id="stacks">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                          <h2 class="text-center"> Somos magos del c&oacute;digo! </h2></br></br>
+                          <center class="row">
+                              <div class="col-md-6 wow slideInLeft" data-wow-duration="1s"><img  src="../img/angular.png" width="60%"></div>
+                              <div class="col-md-6 wow slideInRight" data-wow-duration="1s"><p class="text">Somos los guardianes del poder secreto de JavaScript, as&iacute; que constru&iacute;mos aplicaciones web con su framework m&aacute;s poderoso: <strong>AngularJS</strong>.</p></div>           
+                          </center>
+                          </br>
+                          <center class="row">
+                              <div class="col-md-6 wow slideInLeft" data-wow-duration="1s"><p class="text">Nuestro poder se extiende a los servidores del mundo, destruiremos las murallas de las t&eacute;cnicas antiguas usando <strong>NodeJS</strong>.</p></div>
+                              <div class="col-md-6 wow slideInRight" data-wow-duration="1s"><img  width="100%" src="http://www.treasurearena.com/gfx/nodejs.svg"></div>           
+                          </center>
+                          </br>
+                         <center class="row">
+                              <div class="col-md-6 wow slideInLeft" data-wow-duration="1s"><img  src="../img/mongo_db.png" width="60%"></div>
+                              <div class="col-md-6 wow slideInRight" data-wow-duration="1s"><p class="text">La magia es acerca del cambio, deshazte de los patrones est&aacute;ticos y &uacute;nete al esquema no relacional de <strong>MongoDB</strong>.</p></div>           
+                          </center>
+                          </br>  </br>  
+                              
+                  </div>
+
+                  <div class="col-md-6 hidden-xs">
+                      <center><span class="icon-gandalf huge_wizard"></span></center>
+                  </div>  
+
+
+                </div>
+              <div class="row hidden-xs">
+                <center>
+                        <h3 class="embrace">También manejamos el porder de </h3>
+                        <div class="techs">
+                          <span class="ion-social-html5 tech_icon"></span>
+                          <span class="ion-social-css3 tech_icon"></span>
+                          <img src="../img/cordova.png" width="6.5%">                          
+                          <img src="../img/ionic.svg" width="13%">
+                          <img src="../img/php.png" width="11%">
+                          <img src="../img/mysql.png" width="9%">                          
+                        </div>
+                </center>
+                </div>
+            </div>
+
+        </div>
+
+<footer class="section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Cont&aacute;ctanos!</h1>
+            <p class="p_redes">¡Env&iacute;anos un correo con tu opini&oacute;n, mensaje o pedido y te responderemos m&aacute;s r&aacute;pido que una flecha elfa!</p>
+              <form class="contact_form" id="contact_form" method="POST" onsubmit="return false;">
+                <input type="text" placeholder="Nombre" name="nombre" class="input_text" required></br>
+                <input type="text" placeholder="Email" name="email" class="input_text" required></br>
+                <input type="text" placeholder="Teléfono" name="telefono" class="input_text" required></br>
+                <textarea placeholder="Habla amigo y entra" name="mensaje" class="input_textarea" required resizable="false"></textarea></br>
+                <button class="btn btn-default cool_green" type="button" onclick="sendMail();">Enviar</button>
+              </form>
+          </div>
+            <div class="col-sm-6">
+            <div class="row">
+            <h1>¡Mantente al día con nosotros!</h1>
+            <p class="p_redes">¡S&iacute;guenos en las redes sociales y mantente al d&iacute;a con nuestras noticias, promociones y servicios para ti y tu compa&ntilde;&iacute;a!</p>
+              <div class="col-md-12 text-right left">
+                <a href="https://www.facebook.com/quenyasoftware?ref=hl" class="social"><img src="../img/facebook_hex_icon.png"></a>
+                <a href="https://twitter.com/Quenya_Software" class="social"><img src="../img/twitter_hex_icon.png"></a>
+                <a href="https://instagram.com/quenya_software/" class="social"><img src="../img/instagram_hex_icon.png"></a>
+              </div>
+              <div class="col-md-12">
+                <h1>¡Invítanos un trago...!</h1>
+              </div>
+              <div class="col-md-6">
+                <p>Aporta un par de monedas de oro a través de la seguridad de PayPal... ¡Muchas gracias!</p>
+              </div>
+              <div class="col-md-6">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="pay_form" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G3F6SAFV3RZR4">
+                  <input type="image" class="paypal" src="http://www.bloggingrex.com/wp-content/uploads/2015/01/paypal_big.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </br>
+      <div class="ring_inscription">
+      <center>
+          <img src="../img/ring.png"><img src="../img/ring.png">
+          <img src="../img/ring.png">
+          <img src="../img/ring.png">
+          <img src="../img/ring.png">
+          <img src="../img/ring.png">
+          <img src="../img/ring.png">          
+          <img src="../img/ring.png">          
+
+      </center>
+
+      </div>
+    </footer>
+    <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 10000
+    });
+
+    function sendMail(){
+      if($("#contact_form")[0].checkValidity()) {
+        $.post( "../mail.php", $("#contact_form").serialize(), function(data) {
+            if(data==11)
+              swal("Correcto!", "Tu mensaje ha sido enviado, te contactaremos muy pronto", "success");
+            else
+              swal("Ha ocurrido un error", "Algo pasó al enviar tu mensaje, inténtalo otra vez", "error");
+        });
+      }else{
+        swal("No lograrás pasar!", "Debes llenar todos los campos o matar un balrog para poder continuar!", "error");
+      }
+    }
+
+    </script>
+    </body>
+
+</html>

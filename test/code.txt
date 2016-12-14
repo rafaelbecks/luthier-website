@@ -1,0 +1,11 @@
+﻿<iframe class="createerIframe" id="b8051c90-c7e2-4f14-bc09-e4eaab0f4c2e" src="Luthier/index.html?responsive=true&guid=b8051c90-c7e2-4f14-bc09-e4eaab0f4c2e" scrolling="no" style="border: 0px; width: 100%;"></iframe>
+
+<script type="text/javascript">
+	function updateCreateerIFrame(id, height) {
+		var iframe = document.getElementById(id);
+		iframe.style.height = height + "px";
+		iframe.style.minHeight = height + "px";
+		iframe.style.visibility = "visible";
+		iframe.style.opacity = "";
+	} 
+</script>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Blasco - Hancrafted Ethnic Instruments</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <meta name="description" content="Abrahan Blasco is a ethnic instruments luthier based in Barquisimeto, Venezuela" /> 
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/smooth.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/soft_scroll.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animate.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+
+       <script>
+          new WOW().init();
+        </script>
+    </head>
+    
+    <body>
+    
+    <script>
+    $(document).ready(function(){
+        var bg=Math.floor((Math.random() * 2) + 1);
+        $("#img_main").attr("style","background-image : url('../img/bg"+bg+".jpg'); background-attachment: fixed;")
+    });
+    </script>
+        <div class="cover">
+          <div class="navbar navbar-default navbar-static-top" style="
+              background: rgba(0,0,0,0.3) !important;
+          ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/logo-letter.png" width="26%" >
+                    </a>
+                </div>
+                <nav class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right menu">
+                        <li class="active active_nav">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a href="#services">My Work</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Musicians</a>
+                        </li>
+                        <li>
+                            <a href="#stacks">Technology Stack</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+<!--                         <li>
+                            <a class="ion-earth" href="../es/"> Es</a>
+                        </li>
+ -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="cover-image" id="img_main"><div id="home"></div></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow fadeInUp" data-wow-duration="2s">
+                        <center><img width="30%" src="../img/logo.png" class="img-responsive logo_central"></center>
+                        <br>
+                        <div class="circle">
+                            <a href="#about" class="arrow-link"><span class="ion-ios-arrow-down cool_btn_down"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section" id="about">
+            <div class="container">
+                <h1 class="text-center about_text">About Me</h1>
+                <div class="row">
+                    <div class="col-md-6 wow slideInLeft" data-wow-duration="1s" >
+                        </br>
+                        <p class="text">Abrahan Blasco is a venezuelan luthier, musician guitarist and trumpet player. He studied chemistry and mathematics at UCLA and at IUTY, besides being a turner and artistic artist.
+                        </p>
+                        <p class="text">
+                        The materials used in his instruments, among others, include <strong>miguelito, curari, algarobo, old mahogany, pines and spruces of german origin</strong>. All the used frets are made of Steward Macdonald stainless steel, thus achieving <strong>perfect tuning in each fret and chord.</strong>
+                        </p>
+                        <p class="text">
+                        Abrahan also manufactures <strong>the midi cuatro</strong>, an innovative system that uses the rmc system of godin guitars. On the other hand the rings of its cuatros have greater thickness (5mm) producing an instrument with <strong>sound more round and powerful.</strong> </p>
+                    <center><a class="btn btn-default cool_green" href="#services">See my work</a></center>
+                    </div>
+                    <div class="col-md-6 wow slideInRight" data-wow-duration="1s" >
+                    <center><img class="img-responsive hidden-xs" src="../img/workshop.jpg"/></center>
+                    </div>
+                </div>
+                </br>
+            </div>
+        </section>
+
+
+
+        <section class="section laptop_bg" id="projects">
+            <div class="container">
+                <h1 class="text-center">Blasco Instruments</h1>
+                </br>
+                <div class="row">
+                  <div class="col-md-4 instruments">
+                    
+                    <h3 class="about_text instrument-header" onclick="$('.world').slideToggle();"><strong>World Instruments</strong></h3>                    
+                    <ul class="instruments-list world">
+                      <li class="inst-option ukelele-iz-list">Ukelele IZ Tenor</li>
+                      <li class="inst-option cuatro-cereza-list">Electric Cuatro Cereza Club</li>
+                    </ul>
+                    <h3 class="about_text instrument-header"><strong>Custom Guitars</strong> (coming soon)</h3>                    
+                    <h3 class="about_text instrument-header"><strong>Custom Basses</strong> (coming soon)</h3>                    
+                    <h3 class="about_text instrument-header"><strong>Hardware and Electronic</strong> (coming soon)</h3>                    
+
+                  </div>   
+                  <div class="col-md-8">
+                    
+                  <!-- UKELELE IZ -->
+
+                    <div id="ukeleleTop" class="swiper-container gallery-top ukelele-iz" style="height: 500px">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/1.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/2.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/3.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/4.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/5.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/6.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/7.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/8.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                    </div>
+                    <div id="ukeleleThumbs" class="swiper-container gallery-thumbs ukelele-iz" style="height: 100px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/1.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/2.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/3.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/4.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/5.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/6.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/7.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/ukelele/8.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                        </div>
+                    </div>
+
+                  <!-- CUATRO CEREZA  -->
+
+                    <div id="cuatroTop" class="swiper-container gallery-top cuatro-cereza" style="height: 500px">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/1.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/2.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/3.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/4.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/5.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-white" id="cuatroNext"></div>
+                        <div class="swiper-button-prev swiper-button-white" id="cuatroPrev"></div>
+                    </div>
+                    <div id="cuatroThumbs" class="swiper-container gallery-thumbs cuatro-cereza" style="height: 100px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/1.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/2.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/3.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/4.jpg); background-size: contain; background-repeat : no-repeat;">
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(../img/cuatro/5.jpg); background-size: contain; background-repeat : no-repeat;">              
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>   
+                </div>
+           </div>
+        </section>
+<footer class="section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Contact Me</h1>
+            <p class="p_redes">Send an email with your request</p>
+              <form class="contact_form" id="contact_form" method="POST" onsubmit="return false;">
+                <input type="text" placeholder="Name" name="nombre" class="input_text" required></br>
+                <input type="text" placeholder="Email" name="email" class="input_text" required></br>
+                <input type="text" placeholder="Phone" name="telefono" class="input_text" required></br>
+                <textarea placeholder="Message" name="mensaje" class="input_textarea" required resizable="false"></textarea></br>
+                <button class="btn btn-default cool_green" disabled="true" type="button" onclick="sendMail();">Send</button>
+              </form>
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+            <h1>Contact Information</h1>
+            <p class="p_redes text">                
+            </br>
+                <strong>Tel</strong> : (+58)416-551-2851  </br>  
+                <strong>Email</strong> : abrahanblasco@gmail.com </br> 
+                Barquisimeto - Lara - Venezuela </br> 
+                &copy; Blasco Instruments
+            </p>
+              <div class="col-md-12 hidden-xs text-center">
+                <a href="https://www.facebook.com/abrahan.blasco" target="blank" class="social"><span class="ion-social-facebook"></span></a>
+                <a href="https://www.instagram.com/blascoguitars/" target="blank" class="social"><span class="ion-social-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </br>
+    </footer>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      $(".swiper-container").hide();
+      $(".ukelele-iz").show();
+
+        $(".inst-option").click(function(){
+          $(".swiper-container").hide();
+          instrumentClass = $(this).attr("class").split(" ")[1].replace("-list","");
+          $("."+instrumentClass).show();
+        });
+
+
+     var galleryUkelele = new Swiper('#ukeleleTop', {
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 10,
+        });
+        var thumbsUkelele = new Swiper('#ukeleleThumbs', {
+            spaceBetween: 10,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true
+        });
+        galleryUkelele.params.control = thumbsUkelele;
+        thumbsUkelele.params.control = galleryUkelele;
+        
+
+     var galleryCuatro = new Swiper('#cuatroTop', {
+            nextButton: '#cuatroNext',
+            prevButton: '#cuatroPrev',
+            spaceBetween: 10,
+        });
+        var thumbsCuatro = new Swiper('#cuatroThumbs', {
+            spaceBetween: 10,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true
+        });
+        galleryCuatro.params.control = thumbsCuatro;
+        thumbsCuatro.params.control = galleryCuatro;
+
+
+    });
+
+    </script>
+    
+    </body>
+
+</html>
